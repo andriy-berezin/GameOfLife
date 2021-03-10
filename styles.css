@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.game {
+  display: grid;
+  width:600px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: minmax(40px, auto);
+  border: 1px solid black;
+  justify-items: center;
+  align-items: center;
+}
+
+.generateButtonWrapper {
+  padding-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
